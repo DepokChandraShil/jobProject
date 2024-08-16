@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-image {
+  height:400px;
+  width:400px;
+  background-image: url('./img/section1.png');
+  background-size: cover;
+  background-position: center;
+}
+
