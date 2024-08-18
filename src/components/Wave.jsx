@@ -2,9 +2,9 @@ import React from "react";
 
 const Wave = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center">
+    <div className="relative h-screen max-sm:h-auto flex items-center justify-center">
       <svg
-        className="absolute w-full h-full"
+        className="absolute w-full h-full max-sm:hidden"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500 500"
         preserveAspectRatio="xMidYMid slice"
@@ -33,7 +33,7 @@ M156.2 -264.4C188.5 -222.3 191.1 -155.4 210.1 -100C229.1 -44.6 264.5 -0.7 256.4 
           </path>
         </g>
       </svg>
-     <div className=" absolute z-50 bg-custom-image mt-44">
+     <div className=" absolute z-50 bg-custom-image mt-44 max-sm:relative max-sm:mt-4 max-sm:z-0 max-sm:w-full  ">
      </div>
     </div>
   );

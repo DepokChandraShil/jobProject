@@ -21,8 +21,8 @@ const Nav = () => {
   ];
 
   return (
-    <header className="w-full block container mx-auto xl:px-24 px- py-8 bg-opacity-0">
-      <nav className=" flex justify-between items-center py-4 px-1 gap-16 bg-white  shadow-orange-300 shadow-lg marker:border rounded-2xl z-50">
+    <header className="w-full block container mx-auto xl:px-24 max-sm:px-2 py-8 bg-opacity-0 ">
+      <nav className=" flex justify-between items-center py-4 px-1 gap-16 max-sm:gap-5 bg-white  shadow-orange-300 shadow-lg marker:border rounded-2xl z-50">
         <div className="">
           <h2 className=" text-2xl ml-8  text-orange-500">
             SEO <span className="font-bold text-orange-500">Portal</span>
