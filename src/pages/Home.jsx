@@ -3,8 +3,10 @@ import SectionOne from "../Section/SectionOne";
 import SectionTwo from "../Section/SectionTwo";
 import SectionThree from "../Section/SectionThree";
 import SectionFour from "../Section/SectionFour";
-
-
+import SectionFive from "../Section/SectionFive";
+import SectionSix from "../Section/SectionSix";
+import SectionSeven from "../Section/SectionSeven";
+import SectionEight from "../Section/SectionEight";
 const Home = () => {
 
 
@@ -15,6 +17,10 @@ const Home = () => {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <SectionFive />
+        <SectionSix />
+        <SectionSeven />
+        <SectionEight />
       </section>
     </div>
   );

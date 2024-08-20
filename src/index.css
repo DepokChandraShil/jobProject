@@ -59,15 +59,6 @@
   }
 }
 
-.parent:hover .childOne {
- background-color:rgb(223, 220, 232) ;
-  color: rgb(135, 120, 120);
 
-}
-.parent:hover .childTwo {
-  background-color: rgb(241, 232, 215);
-  transform: scale(1.1);
-  color: rgb(135, 120, 120);
-  font-weight: 400;
-}
+
 

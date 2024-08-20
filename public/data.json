@@ -1,0 +1,9 @@
+[
+  
+  { "title": "Branding", "para": "i like branding", "src": "/dataOne.jpg","valuee":"branding" },
+  { "title": "Marketing", "para": "i like Mrketing", "src": "/dataTwo.jpg","valuee":"marketing" },
+  { "title": "Development", "para": "i like development", "src": "/dataThree.jpg","valuee":"development" },
+  { "title": "Branding", "para": "i like branding", "src": "/dataFour.jpg","valuee":"Branding"},
+  { "title": "Marketing", "para": "i like Marketing", "src": "/dataFive.jpg","valuee":"marketing" },
+  { "title": "Marketing", "para": "i like Marketing", "src": "/dataSix.jpg","valuee":"marketing" }
+]

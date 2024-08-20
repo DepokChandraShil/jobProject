@@ -27,9 +27,36 @@ const SectionFour = () => {
             />
           </div>
         </div>
-        <div className="w-3/5 ">
-          <div className="relative h-[600px] w-[350px] parent">
-            <div className="childOne absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 ">
+        <div className="w-3/5 grid grid-cols-2">
+          <div className="relative h-[600px] w-[350px]">
+            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+              <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
+              <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
+            </div>
+            <div className="childTwo absolute h-[125px] w-[125px] border rounded-full bg-orange-600 text-white pt-[-200px] z-10 ml-10 mt-3  ">
+              <p className="font-bold  text-xl mt-12">SEO</p>
+            </div>
+          </div>
+          <div className="relative h-[600px] w-[350px] ">
+            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+              <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
+              <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
+            </div>
+            <div className="childTwo absolute h-[125px] w-[125px] border rounded-full bg-orange-600 text-white pt-[-200px] z-10 ml-10 mt-3  ">
+              <p className="font-bold  text-xl mt-12">SEO</p>
+            </div>
+          </div>
+          <div className="relative h-[600px] w-[350px]">
+            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+              <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
+              <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
+            </div>
+            <div className="childTwo absolute h-[125px] w-[125px] border rounded-full bg-orange-600 text-white pt-[-200px] z-10 ml-10 mt-3  ">
+              <p className="font-bold  text-xl mt-12">SEO</p>
+            </div>
+          </div>
+          <div className="relative h-[600px] w-[350px]">
+            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
               <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
               <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
             </div>
