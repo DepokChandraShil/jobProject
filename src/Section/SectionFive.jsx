@@ -3,13 +3,13 @@ import BgWave from "../components/BgWave";
 
 const SectionFive = () => {
   return (
-    <div className="flex items-center justify-center gap-5">
-      <div className="w-1/2  text-left">
+    <div className="flex max-sm:flex-col items-center justify-center gap-5 max-sm:-mt-20">
+      <div className="w-1/2 max-sm:w-full text-left">
         <div className="pl-5">
           <h5 className="font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text">
             WHAT WE DO
           </h5>
-          <h1 className="text-6xl font-semibold leading-snug">
+          <h1 className="text-6xl max-sm:text-3xl font-semibold leading-snug">
             Lorem ipsum dolor sit amet consectetur adipisicing.
           </h1>
           <p className="mt-5 font-semibold text-gray-500">
@@ -67,7 +67,7 @@ const SectionFive = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 max-sm:hidden">
             <BgWave />
       </div>
     </div>

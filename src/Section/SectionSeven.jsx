@@ -37,18 +37,36 @@ const SectionSeven = () => {
     },
   ];
   return (
-    <div className="w-full  flex items-center justify-center gap-5">
-      <div className="w-8/12 gap-5 mb-5 mt-5 ml-5   flex items-center justify-center">
-        <div className="w-1/3 bg-blue-100 text-left border rounded-md p-5">
+    <div className="w-full  flex max-sm:flex-col items-center justify-center gap-5">
+      <div className=" max-sm:w-full md:hidden text-left mt-10 pl-5 pr-2">
+        <p className="font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text">
+          PRICES PLAN
+        </p>
+        <h1 className="text-3xl font-bold mt-5">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+      </div>
+      <div className="w-8/12 max-sm:w-full gap-5 mb-5 mt-5 ml-5   flex max-sm:flex-col items-center justify-center">
+        <div className="w-1/3 max-sm:w-full text-left px-5">
           <h1 className="text-4xl mb-2">Basic</h1>
           {sectionSevenData[1].para.map((paraData, index) => (
             <div key={index} className="flex items-center mt-5 mb-5">
               <div className="h-5 w-3 border border-black ml-2 mr-5 "></div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p1}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p2}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p3}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p4}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p5}</div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p1}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p2}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p3}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p4}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p5}
+              </div>
             </div>
           ))}
           <div>
@@ -60,16 +78,26 @@ const SectionSeven = () => {
             Choose a plan
           </button>
         </div>
-        <div className=" realtive  w-1/3 bg-blue-100 text-left border rounded-md p-5 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
-         <h1 className="text-4xl mt-5">Premium</h1>
+        <div className=" realtive  w-1/3 max-sm:w-11/12 text-left  px-5 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 border border-none rounded-lg">
+          <h1 className="text-4xl mt-5">Premium</h1>
           {sectionSevenData[1].para.map((paraData, index) => (
             <div key={index} className="flex items-center mt-5 mb-5">
               <div className="h-5 w-3 border border-black ml-2 mr-5 "></div>
-              <div className=" text-xs font-bold text-black ">{paraData.p1}</div>
-              <div className=" text-xs font-bold text-black ">{paraData.p2}</div>
-              <div className=" text-xs font-bold text-black ">{paraData.p3}</div>
-              <div className=" text-xs font-bold text-black ">{paraData.p4}</div>
-              <div className=" text-xs font-bold text-black ">{paraData.p5}</div>
+              <div className=" text-xs font-bold text-black ">
+                {paraData.p1}
+              </div>
+              <div className=" text-xs font-bold text-black ">
+                {paraData.p2}
+              </div>
+              <div className=" text-xs font-bold text-black ">
+                {paraData.p3}
+              </div>
+              <div className=" text-xs font-bold text-black ">
+                {paraData.p4}
+              </div>
+              <div className=" text-xs font-bold text-black ">
+                {paraData.p5}
+              </div>
             </div>
           ))}
           <div>
@@ -81,16 +109,26 @@ const SectionSeven = () => {
             Choose a plan
           </button>
         </div>
-        <div className="w-1/3 bg-blue-100 text-left border rounded-md p-5">
+        <div className="w-1/3 max-sm:w-full text-left p-5">
           <h1 className="text-4xl mb-2">Basic</h1>
           {sectionSevenData[1].para.map((paraData, index) => (
             <div key={index} className="flex items-center mt-5 mb-5">
               <div className="h-5 w-3 border border-black ml-2 mr-5 "></div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p1}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p2}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p3}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p4}</div>
-              <div className=" text-xs font-bold text-slate-600 ">{paraData.p5}</div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p1}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p2}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p3}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p4}
+              </div>
+              <div className=" text-xs font-bold text-slate-600 ">
+                {paraData.p5}
+              </div>
             </div>
           ))}
           <div>
@@ -103,9 +141,13 @@ const SectionSeven = () => {
           </button>
         </div>
       </div>
-      <div className="w-4/12 text-left">
-        <p  className="font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text">PRICES PLAN</p>
-        <h1 className="text-5xl font-bold mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <div className="w-4/12 max-sm:w-full max-sm:hidden text-left">
+        <p className="font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text">
+          PRICES PLAN
+        </p>
+        <h1 className="text-5xl font-bold mt-5">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
       </div>
     </div>
   );

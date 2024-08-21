@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from "../components/Card";
+
 
 const SectionEight = () => {
   const [clickData, setClickData] = useState([]);
@@ -33,11 +33,11 @@ const SectionEight = () => {
     }
     return (
       <div className="p-4">
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex max-sm:flex-col flex-wrap justify-center items-center gap-8">
           {filteredValue.map((item,i) => (
             <div
               key={i}
-              className="w-3/12  p-4 border border-gray-300 rounded-lg shadow-md bg-white"
+              className="w-3/12 max-sm:w-full p-4 border border-gray-300 rounded-lg shadow-md bg-white mt-5"
             >
               <div>
                 <img src={item.src}/>
@@ -57,7 +57,7 @@ const SectionEight = () => {
       <div>
         <div className="">
          
-          <ul className="gap-3 flex  justify-center items-center">
+          <ul className="gap-3 max-sm:gap-0 flex  flex-wrap justify-center items-center">
             {navData && navData.length > 0
               ? navData.map((item, i) => (
                   <li

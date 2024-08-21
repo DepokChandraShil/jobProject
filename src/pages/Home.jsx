@@ -7,11 +7,13 @@ import SectionFive from "../Section/SectionFive";
 import SectionSix from "../Section/SectionSix";
 import SectionSeven from "../Section/SectionSeven";
 import SectionEight from "../Section/SectionEight";
+import SectionNine from "../Section/SectionNine";
+import SectionTen from "../Section/SectionTen";
 const Home = () => {
 
 
   return (
-    <div className="container bg-blue-50 w-full">
+    <div className="container bg-blue-50 m-auto w-full">
       <section className="bg-blue-50">
         <SectionOne />
         <SectionTwo />
@@ -21,6 +23,8 @@ const Home = () => {
         <SectionSix />
         <SectionSeven />
         <SectionEight />
+        <SectionNine />
+        <SectionTen />
       </section>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const SectionTwo = () => {
   return (
     <div className="flex max-sm:flex-col justify-center items-center gap-5 w-ful mt-20">
-      <div className="w-[350px] max-sm:w-[350px] h-[450px] bg-blue-100 border rounded-md">
+      <div className="w-[350px] max-sm:w-[350px] h-[450px] ">
         <img
           src="/card1.png"
           alt="Logo"
@@ -17,7 +17,7 @@ const SectionTwo = () => {
           cumque consequatur exercitationem officia nulla?
         </p>
       </div>
-      <div className="w-[350px] max-sm:w-[350px] h-[450px] bg-blue-100 border rounded-md">
+      <div className="w-[350px] max-sm:w-[350px] h-[450px]">
         <img
           src="/card2.png"
           alt="Logo"
@@ -31,7 +31,7 @@ const SectionTwo = () => {
           cumque consequatur exercitationem officia nulla?
         </p>
       </div>
-      <div className="w-[350px] max-sm:w-[350px] h-[450px] bg-blue-100 border rounded-md">
+      <div className="w-[350px] max-sm:w-[350px] h-[450px]">
         <img
           src="/card3.png"
           alt="Logo"

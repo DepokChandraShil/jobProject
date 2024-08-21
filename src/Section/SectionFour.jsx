@@ -5,18 +5,18 @@ const SectionFour = () => {
     <div className="w-full bg-blue-50 overflow-hidden ">
       <div className="relative  whitespace-nowrap bg-blue-50  ">
         <div className="absolute animate-marquee ">
-          <span className="inline-block font-semibold text-8xl px-4 py-2  ">
+          <span className="inline-block font-semibold max-sm:text-5xl text-8xl px-4 py-2  ">
             SEO . Digital Marketing . Analysis . Digital . Agency .SEO . Digital
             Marketing . Analysis . Digital . Agency
           </span>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-5 mt-36 pb-5">
-        <div className="w-2/5 text-left pl-5 ">
+      <div className="max-sm:flex-col flex items-center justify-center gap-5 mt-36 pb-5">
+        <div className="max-sm:w-full w-2/5 text-left pl-5 ">
           <p className="font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text">
             Services
           </p>
-          <h1 className="text-6xl font-semibold leading-snug">
+          <h1 className="text-6xl max-sm:text-3xl font-semibold leading-snug">
             Lorem ipsum dolor sit, amet consectetur
           </h1>
           <div className="w-[450px] max-sm:w-[350px] h-[450px]  pl-5">
@@ -27,9 +27,9 @@ const SectionFour = () => {
             />
           </div>
         </div>
-        <div className="w-3/5 grid grid-cols-2">
-          <div className="relative h-[600px] w-[350px]">
-            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+        <div className="w-3/5 grid grid-cols-2 max-sm:grid-cols-1 max-sm:-ml-28">
+          <div className="relative h-[500px] w-[350px] max-sm:-mt-28">
+            <div className=" absolute h-[300px] w-[350px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
               <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
               <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
             </div>
@@ -37,8 +37,8 @@ const SectionFour = () => {
               <p className="font-bold  text-xl mt-12">SEO</p>
             </div>
           </div>
-          <div className="relative h-[600px] w-[350px] ">
-            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+          <div className="relative h-[500px] w-[350px] max-sm:-mt-28">
+            <div className=" absolute h-[300px] w-[350px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
               <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
               <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
             </div>
@@ -46,8 +46,8 @@ const SectionFour = () => {
               <p className="font-bold  text-xl mt-12">SEO</p>
             </div>
           </div>
-          <div className="relative h-[600px] w-[350px]">
-            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+          <div className="relative h-[500px] w-[350px] max-sm:-mt-28">
+            <div className=" absolute h-[300px] w-[350px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
               <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
               <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
             </div>
@@ -55,8 +55,8 @@ const SectionFour = () => {
               <p className="font-bold  text-xl mt-12">SEO</p>
             </div>
           </div>
-          <div className="relative h-[600px] w-[350px]">
-            <div className=" absolute h-[400px] w-[310px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
+          <div className="relative h-[500px] w-[350px] max-sm:-mt-28">
+            <div className=" absolute h-[300px] w-[350px] mt-20 bg-[#0a0368] text-slate-200 border rounded-xl text-left pl-5 pr-5 transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 hover:text-black ">
               <h1 className="mt-20  font-bold text-3xl">SEO Marketing</h1>
               <p className=" mt-5  text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit animi pariatur cupiditate mollitia sequi aspernatur sed officia illum, ad soluta?</p>
             </div>

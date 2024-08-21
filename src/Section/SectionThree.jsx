@@ -13,7 +13,7 @@ const SectionThree = () => {
         </div>
       </div>
       <div className="w-1/2 max-sm:w-full mt-10 ">
-        <div className="flex flex-col text-left gap-5 ">
+        <div className="flex flex-col text-left gap-5 max-sm:px-5">
           <h5 className="text-slate-400 font-bold text-xl">About Us </h5>
           <h1 className="font-semibold text-5xl ">
             Lorem ipsum dolor sit amet
